@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+
+
+  body{
+    font-family: "Outfit", sans-serif;
+    max-width: 390px;
+  }
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #backImg {
+    height: 30px;
+    width: 30px;
+  }
+
+  #ProfileImg {
+    margin-left: 115px;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+  }
+
+  #profileName{
+    font-size: 25px;
+    margin: 0px;
+  }
+
+  #designation {
+    font-size: 15px;
+    margin: 0px;
+  }
+  
+  #contentManger {
+    display: flex;
+  }
+
+  #aboutMe {
+    font-weight: bold;
+  }
+
+  .aboutMeTextArea {
+    box-shadow: 4px 8px 15px;
+    border-radius: 3%;
+    padding: 3px;
+  }
+
+  #messagingPic {
+    margin-left: 10px;
+  }
+
+  .InterestsA {
+    text-decoration: none;
+    box-shadow: 2px 3px 8px;
+    border-radius: 8%;
+    padding: 3px;
+
+  }
+
+  .Interests-container {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    
+  }
+
+  .Activity-container {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .activitiesA {
+    text-decoration: none;
+    box-shadow: 2px 3px 8px;
+    border-radius: 8%;
+    padding: 3px;
+  }
+
+  #currentlyLoo {
+    font-weight: bold;
+  }
+
+  .options-container {
+    display: flex;
+    gap: 20px;
+  }
+
+  .grocery-container {
+    padding: 5px;
+    background-color: lightblue;
+  }
+
+  .Coffee-container {
+    padding: 5px;
+    background-color: lightblue;
+  }
+
+  .footer-container {
+    display: flex;
+    border-top: 0.5px solid #D3D3D3;
+    padding: 10px;
+    gap: 40px;
+    margin-top: 10px;
+  }
